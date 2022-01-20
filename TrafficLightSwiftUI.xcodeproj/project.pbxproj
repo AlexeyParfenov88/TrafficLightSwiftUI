@@ -11,7 +11,7 @@
 		9E5EB2892799CD930050602F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5EB2882799CD930050602F /* ContentView.swift */; };
 		9E5EB28B2799CD940050602F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E5EB28A2799CD940050602F /* Assets.xcassets */; };
 		9E5EB28E2799CD940050602F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E5EB28D2799CD940050602F /* Preview Assets.xcassets */; };
-		9E5EB2952799CE5F0050602F /* ColorLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5EB2942799CE5F0050602F /* ColorLight.swift */; };
+		9E5EB2972799D2560050602F /* SignalColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5EB2962799D2560050602F /* SignalColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +20,7 @@
 		9E5EB2882799CD930050602F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9E5EB28A2799CD940050602F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E5EB28D2799CD940050602F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		9E5EB2942799CE5F0050602F /* ColorLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorLight.swift; sourceTree = "<group>"; };
+		9E5EB2962799D2560050602F /* SignalColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 			children = (
 				9E5EB2862799CD930050602F /* TrafficLightSwiftUIApp.swift */,
 				9E5EB2882799CD930050602F /* ContentView.swift */,
-				9E5EB2942799CE5F0050602F /* ColorLight.swift */,
+				9E5EB2962799D2560050602F /* SignalColor.swift */,
 				9E5EB28A2799CD940050602F /* Assets.xcassets */,
 				9E5EB28C2799CD940050602F /* Preview Content */,
 			);
@@ -140,7 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E5EB2952799CE5F0050602F /* ColorLight.swift in Sources */,
+				9E5EB2972799D2560050602F /* SignalColor.swift in Sources */,
 				9E5EB2892799CD930050602F /* ContentView.swift in Sources */,
 				9E5EB2872799CD930050602F /* TrafficLightSwiftUIApp.swift in Sources */,
 			);

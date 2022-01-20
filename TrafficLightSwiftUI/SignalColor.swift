@@ -1,5 +1,5 @@
 //
-//  ColorLight.swift
+//  SignalColor.swift
 //  TrafficLightSwiftUI
 //
 //  Created by Алексей Парфенов on 20.01.2022.
@@ -7,21 +7,22 @@
 
 import SwiftUI
 
-struct ColorLight: View {
+struct SignalColor: View {
     
     let color: Color
+    let brightness: Double
     
     var body: some View {
         Circle()
             .foregroundColor(color)
-            .frame(width: 100, height: 100)
+            .brightness(brightness)
+            .frame(width: 120, height: 120)
             .overlay(Circle().stroke(Color.white, lineWidth: 4))
-            .shadow(radius: 10)
     }
 }
 
-struct ColorLight_Previews: PreviewProvider {
+struct SignalColor_Previews: PreviewProvider {
     static var previews: some View {
-        ColorLight(color: .red)
+        SignalColor(color: .red, brightness: 0.1)
     }
 }

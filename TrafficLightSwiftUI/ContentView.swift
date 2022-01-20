@@ -7,10 +7,31 @@
 
 import SwiftUI
 
+enum CurrentLight {
+    case red, yellow, green
+}
+
 struct ContentView: View {
+    
+    @State private var redLightBrightness = 0.5
+    @State private var yellowLightBrightness = 0.5
+    @State private var greenLightBrightness = 0.5
+    
+    @State private var currentLight = CurrentLight.red
+
     var body: some View {
-        Text("Hello!")
-            .padding()
+        ZStack {
+            Color(.black)
+                .ignoresSafeArea()
+            
+            VStack(spacing: 30) {
+                SignalColor(color: .red, brightness: redLightBrightness)
+                SignalColor(color: .yellow, brightness: yellowLightBrightness)
+                SignalColor(color: .green, brightness: greenLightBrightness)
+                
+                Spacer()
+            }
+        }
     }
 }
 
