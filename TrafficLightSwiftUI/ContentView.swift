@@ -42,7 +42,9 @@ struct ContentView: View {
             yellowLightCondition = lightIsOff
         }
     }
+}
 
+extension ContentView {
     var body: some View {
         ZStack {
             Color(.black)
