@@ -15,9 +15,9 @@ struct ContentView: View {
     
     @State private var buttonName = "START"
     
-    @State private var redLightBrightness = 0.3
-    @State private var yellowLightBrightness = 0.3
-    @State private var greenLightBrightness = 0.3
+    @State private var redLightCondition = 0.3
+    @State private var yellowLightCondition = 0.3
+    @State private var greenLightCondition = 0.3
     
     @State private var currentLight = CurrentLight.red
     
@@ -30,16 +30,16 @@ struct ContentView: View {
             
         case .red:
             currentLight = .yellow
-            greenLightBrightness = lightIsOff
-            redLightBrightness = lightIsOn
+            greenLightCondition = lightIsOff
+            redLightCondition = lightIsOn
         case .yellow:
             currentLight = .green
-            redLightBrightness = lightIsOff
-            yellowLightBrightness = lightIsOn
+            redLightCondition = lightIsOff
+            yellowLightCondition = lightIsOn
         case .green:
             currentLight = .red
-            greenLightBrightness = lightIsOn
-            yellowLightBrightness = lightIsOff
+            greenLightCondition = lightIsOn
+            yellowLightCondition = lightIsOff
         }
     }
 
@@ -49,9 +49,9 @@ struct ContentView: View {
                 .ignoresSafeArea()
             
             VStack(spacing: 30) {
-                SignalColor(color: .red, opacity: redLightBrightness)
-                SignalColor(color: .yellow, opacity: yellowLightBrightness)
-                SignalColor(color: .green, opacity: greenLightBrightness)
+                SignalColor(color: .red, opacity: redLightCondition)
+                SignalColor(color: .yellow, opacity: yellowLightCondition)
+                SignalColor(color: .green, opacity: greenLightCondition)
                 
                 Spacer()
                 
