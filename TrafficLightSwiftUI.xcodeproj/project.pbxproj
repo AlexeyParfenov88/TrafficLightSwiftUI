@@ -12,6 +12,7 @@
 		9E5EB28B2799CD940050602F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E5EB28A2799CD940050602F /* Assets.xcassets */; };
 		9E5EB28E2799CD940050602F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E5EB28D2799CD940050602F /* Preview Assets.xcassets */; };
 		9E5EB2972799D2560050602F /* SignalColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5EB2962799D2560050602F /* SignalColor.swift */; };
+		9E852220279B045100E1D54C /* ColorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E85221F279B045100E1D54C /* ColorButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		9E5EB28A2799CD940050602F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E5EB28D2799CD940050602F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9E5EB2962799D2560050602F /* SignalColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalColor.swift; sourceTree = "<group>"; };
+		9E85221F279B045100E1D54C /* ColorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				9E5EB2862799CD930050602F /* TrafficLightSwiftUIApp.swift */,
 				9E5EB2882799CD930050602F /* ContentView.swift */,
+				9E85221F279B045100E1D54C /* ColorButton.swift */,
 				9E5EB2962799D2560050602F /* SignalColor.swift */,
 				9E5EB28A2799CD940050602F /* Assets.xcassets */,
 				9E5EB28C2799CD940050602F /* Preview Content */,
@@ -143,6 +146,7 @@
 				9E5EB2972799D2560050602F /* SignalColor.swift in Sources */,
 				9E5EB2892799CD930050602F /* ContentView.swift in Sources */,
 				9E5EB2872799CD930050602F /* TrafficLightSwiftUIApp.swift in Sources */,
+				9E852220279B045100E1D54C /* ColorButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
